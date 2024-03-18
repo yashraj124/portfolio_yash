@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.portfolio-sections{
+	height: 400px;
+	width: 100%;
+	border: 2px solid black;
+	text-align: center;
+	background-color: white;
+}
+
+.navigation-bar{
+	position: fixed;
+	width: 100%;
+	background-color: transparent;
+	backdrop-filter: blur(10px);
+	z-index: 1;
+}
+
+.portfolio-sections h1{
+	margin-top: 50px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+.brand{
+	font-size: 30px;
+	font-family: Arial Black;
+	font-variant: small-caps;
+	color: blue;
+}
+
+.navmenu{
+color: black;
+font-size: 20px;	
+font-family: sans-serif;
+font-weight: bolder;
+padding-left: 15px;
+}
+
+.navmenu:hover{
+	text-decoration: underline 2px solid black;
+	text-underline-offset: 6px;
+}
+
+.tracking-in-exapnd{
+	-webkit-animation
+}
