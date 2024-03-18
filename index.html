@@ -1,76 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="https://png.pngtree.com/png-vector/20190330/ourmid/pngtree-vector-portfolio-icon-png-image_894864.jpg">
-
-
-	<title>Yashraj's Portfolio</title>
-
-	<!-- bootstrap link below -->
-
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-	
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-
-	<!-- bootstrap ends here -->
-
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn-icons-png.freepik.com/512/686/686165.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Yashraj'sPortfolio</title>
 </head>
 <body>
+    <div class="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <a class="navbar-brand" href="#" ><span class="brand tracking-in-expand">Yashraj</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home"><span class="navmenu">Home</span> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about"><span class="navmenu">About</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills"><span class="navmenu">Skills</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects"><span class="navmenu">Projects</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact"><span class="navmenu">Contact</span></a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <!-- nav bar ends here -->
+   <div class="main-container">
+    <section id="home" class="portfolio-sections">
+        <div id="home-info">
+            <span class="info">Hi </span><br/>
+            <span class="info">My name is </span><br>
+            <span class="brand myname">Yashraj</span><br>
+            <span class="info">I am <span class="designation">Backend Developer</span></span>
+            <button href="demo.pdf" class="rsmbtn">RESUME</button>
+        </div>
+    </section>
+    <section id="about" class="portfolio-sections">
+        <h1>ABOUT</h1>
+        <h5>A motivated Backend Developer Intern seeking to utilize my technical knowledge and problem-solving skills to create successful implementations and high-quality solutions that address real-world business needs and improve customer experience. Aiming to contribute my initiative and dedication to achieving organizational objectives and making a positive impact.</h5>
 
-	<!-- navbar strts here -->
-	
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">Yashraj</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+    </section>
+    <section id="skills" class="portfolio-sections">
+        <h1>SKILLS</h1>
+        <h5>SKILLS & COMPETENCIES
+          Database optimization and administration
+          RESTful API development and maintenance
+          Front-end development and collaboration
+          Automated data validation
+          Map and search filter feature development
+          Database schema design and implementation
+          Object-oriented programming
+          Experience with different database management systems (MySQL, SQL Server, PostgreSQL, etc.)
+          Knowledge of web services and protocols (REST, SOAP, GraphQL, etc.)
+          Strong debugging and troubleshooting skills
+          Excellent communication and collaboration skills
+          Understanding of cloud computing solutions (AWS, Azure, etc.)
+          Object-relational mapping (ORM)</h5>
+    </section>
+    <section id="projects" class="portfolio-sections">
+        <h1>PROJECTS</h1>
+        <h5>ATM Simulator ||
+        E-Commerce(under developement)||
+      Feedback System(Android)</h5>
+    </section>
+    <section id="contact" class="portfolio-sections">
+        <h1>CONTACT</h1>
+        <h5>E-mail:-yashrajchavan17@gmail.com||
+        Contact:-8180043221</h5>
+    </section>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#About">About</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#Skill">Skill</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#Projects">Projects</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#Contact">Contact</a>
-	      </li>
-	          
-	    </ul>
-	   </div>
-	</nav>
-	<!-- navbar ends here -->
-
-
-	<section id ="Home" class="portfolio-sections">
-		<h1>HOME</h1>
-	</section>
-	<section id ="About" class="portfolio-sections">
-		<h1>ABOUT</h1>
-	</section>
-	<section id ="Skills" class="portfolio-sections">
-		<h1>SKILLS</h1>
-	</section>
-	<section id ="Projects" class="portfolio-sections">
-		<h1>PROJECTS</h1>
-	</section>
-	<section id ="Contact" class="portfolio-sections">
-		<h1>CONTACT</h1>
-	</section>
-
-		
-
-	
+   </div>
+    
 </body>
 </html>
